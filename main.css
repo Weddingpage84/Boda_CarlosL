@@ -1,0 +1,139 @@
+:root{
+    --main-color: #f9f9f9;
+ 
+    --text-color: #101010;
+    --border-color: #686f86;
+}
+button{
+
+    border-color: var(--border-color);
+    border-radius: .7rem;
+    background-color: var(--main-color);
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    font-family: 'Montserrat';
+    border-width: 1px;
+}
+p{
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+}
+h2, h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.9rem;
+}   
+h1{
+    text-align: center;
+}
+.body{
+    font-size: 14px;
+    font-family: "Open Sans";
+    margin: 0px;
+}
+
+.main__tittle{
+    background-color:var(--main-color);
+    background-size: 100vw;
+    text-align: center;
+    margin: auto;
+}
+.intro{
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/main-image.jpeg");
+    background-size: contain;
+    display: grid;
+}
+.intro__container{
+    opacity: 50%;
+    background-color: #f9f9f9;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.place__container, .godparents__container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    background-color: var(--main-color);
+
+}
+.mancuerna{
+    margin-top: 1.5rem;
+}
+
+.godparents__image{
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+.godparents__image img{
+    position: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+.place__text{
+    width: 90%;
+    margin: auto;
+}
+.recepcion{
+    margin-top: 1.9rem;
+}
+.place__text img{
+        width: inherit;
+        margin: auto;
+}
+.text{
+    color: #949494;
+    font-family: 'Lora', serif;
+
+}
+
+.intro__container{
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+
+}
+.goodbye{
+    background-image: url('images/eiffel.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 12rem;
+    display: grid;
+}
+
+.goodbye__text{
+    width: 80%;
+    margin: auto;
+    text-align: center;  
+    opacity: 50%;
+    background-color: #f9f9f9; 
+    
+}
+.goodbye__container{
+    width: 80%;
+    margin: auto;
+    text-align: center; 
+}
+.goodbye__container h3{
+    font-family: 'Great Vibes';
+    font-size: 1.7rem;
+}
+.goodbye p{
+    font-weight: bold;
+}
+.footer{
+    background-color: #686f86;
+    width: 100%;
+    height: 2rem;
+    
+}

@@ -46,12 +46,14 @@ h1{
     background-image: url("images/main-image.jpeg");
     background-size: contain;
     display: grid;
+    grid-template-rows: 50%;
 }
 .intro__container{
     opacity: 50%;
     background-color: #f9f9f9;
     vertical-align: middle;
     font-weight: bold;
+    grid-area: 2;
 }
 .place__container, .godparents__container{
     display: grid;
@@ -107,15 +109,17 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 12rem;
+    height: 30rem;
     display: grid;
+    grid-template-rows: 25% 25%;
+    
 }
 
 .goodbye__text{
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: center;  
-    opacity: 50%;
+    opacity: 60%;
     background-color: #f9f9f9; 
     
 }

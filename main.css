@@ -104,6 +104,20 @@ h1{
     margin: auto;
 
 }
+familly{
+    display: grid;
+    text-align: center;
+}
+
+familly__text{
+    width: 65%;
+    margin: auto;
+    opacity: 50%;
+    background-color: #f9f9f9; 
+    
+}
+}
+
 .goodbye{
     background-image: url('images/eiffel.jpeg');
     background-repeat: no-repeat;

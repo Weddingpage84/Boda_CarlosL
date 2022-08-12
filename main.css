@@ -103,7 +103,7 @@ h1{
     margin: auto;
 }
 .family{
-    backgroun:url('images/family.jpeg');
+    backgroun-image:url('images/family.jpeg');
     display: grid;
     text-align: center;
     height: 30rem;

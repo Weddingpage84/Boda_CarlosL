@@ -104,13 +104,14 @@ h1{
     margin: auto;
 
 }
-.familly{
+.family{
+    backgroun:url('images/family.jpeg');
     display: grid;
     text-align: center;
     height: 30rem
 }
 
-.familly__text{
+.family__text{
     width: 65%;
     margin: auto;
     opacity: 50%;

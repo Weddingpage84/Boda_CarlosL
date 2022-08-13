@@ -108,12 +108,16 @@ h1{
     text-align: center;
     height: 30rem;
     margin-top: 1rem;
+    background-position: center;
+    background-size: cover;
+    grid-template-rows: 50%;
 }
 .family__text{
     width: 65%;
     margin: auto;
     opacity: 50%;
     background-color: #f9f9f9;  
+    grid-area: 2;
 }
 .goodbye{
     background-image: url('images/eiffel.jpeg');
